@@ -26,7 +26,7 @@ Motion::Project::App.setup do |app|
   app.files << File.join(lib_dir_path, "ProMotion/XLForm/ui_alert_controller.rb")
 
   app.pods do
-    pod 'XLForm', '4.2.0'
+    pod 'XLForm', path: "../XLForm/"
     pod 'RSColorPicker'
   end
 end
